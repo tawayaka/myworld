@@ -1,6 +1,5 @@
 FROM python:3
 RUN apt update
-RUN apt install python -y
 RUN apt install wget unzip -y
 RUN pip install Django
 RUN pip install translators
